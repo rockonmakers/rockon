@@ -20,3 +20,13 @@
 body {
   background-color: black;
 }
+
+.px1 {
+  background: url("/assets/px1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
