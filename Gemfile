@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 ## Rails
 gem 'rails', '4.1.0.beta1'
 
 ## DB
 gem 'sqlite3', group: [ :development, :test ]
-gem 'mysql2', group: :production
+# gem 'mysql2', group: :production
 
 ## CSS/SCSS/JS
 gem 'sass-rails', '~> 4.0.0.rc1'
@@ -36,8 +36,18 @@ gem 'jquery-fileupload-rails'
 gem 'kaminari'
 
 ## Development
-gem 'spring',        group: :development
-gem 'pry', group: [:development, :test]
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+  gem 'spring' 
+end
+
+# gem 'spring',        group: :development
+# gem 'pry', group: [:development, :test]
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
 
 ## Deployment
 gem 'unicorn'
