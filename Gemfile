@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
 ## Rails
-gem 'rails', '4.1.0.beta1'
+gem 'rails', '4.1.5'
 
 ## DB
 gem 'sqlite3', group: [ :development, :test ]
@@ -26,14 +26,14 @@ gem 'formtastic-bootstrap'
 gem 'jbuilder', '~> 1.2'
 
 ## Auth
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
+# gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 #Attachments
-gem "paperclip", "~> 3.0"
-gem 'jquery-fileupload-rails'
+# gem "paperclip", "~> 3.0"
+# gem 'jquery-fileupload-rails'
 
 #Pagination
-gem 'kaminari'
+# gem 'kaminari'
 
 ## Development
 group :production do
@@ -45,9 +45,9 @@ end
 # gem 'spring',        group: :development
 # gem 'pry', group: [:development, :test]
 
-group :doc do
-  gem 'sdoc', '0.3.20', require: false
-end
+# group :doc do
+#   gem 'sdoc', '0.3.20', require: false
+# end
 
 ## Deployment
 gem 'unicorn'
