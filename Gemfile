@@ -34,7 +34,6 @@ gem 'jbuilder', '~> 1.2'
 
 #Pagination
 # gem 'kaminari'
-
 ## Development
 group :production do
   gem 'pg', '0.15.1'
