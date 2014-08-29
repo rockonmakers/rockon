@@ -40,14 +40,14 @@ body {
 }
 
 .top2_wrapper {
-    background: url("../images/top2.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
-    border-radius: 5px 5px 0 0;
-    position: relative;
-    z-index: 6;
+  background: url("../images/top2.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  z-index: 6;
 }
 
 .top2_wrapper {
-  background-image: url("/assets/top2_2.jpg");
+    background-image: url("/assets/top2_2.jpg");
 
 }
 
@@ -63,4 +63,14 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 10;
+  padding-bottom: 40;
+}
+
+header {
+  display: block;
+}
+
+.top1 {
+  padding-bottom: 40px;
+  padding-top: 50px;
 }
