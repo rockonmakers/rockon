@@ -10,12 +10,7 @@ li {
     line-height: 20px;
 }
 
-a {
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-}
+
 
 #supersized img {
   width: 100%;
@@ -39,10 +34,6 @@ ul ul, ul ol, ol ol, ol ul {
 
 
 body {
-  background-color: black;
-}
-
-body {
     background: none repeat scroll 0 0 #f8f7f4;
     color: #515151;
     font-family: Arial,Helvetica,sans-serif;
@@ -50,7 +41,8 @@ body {
     line-height: 20px;
     margin: 0;
     padding-top: 0px;
-}
+    background-color: black;
+  }
 
 .px1 {
   background: url("/assets/px1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -70,6 +62,10 @@ body {
 }
 
 .top2_wrapper {
+  background-image: url("/assets/top2_2.jpg")
+}
+
+.top2_wrapper {
     background-image: url("/assets/top2_2.jpg");
     border-radius: 5px 5px 0 0;
     position: relative;
@@ -82,14 +78,6 @@ body {
   max-width: 784px;
 }
 
-#main {
-  background: url("/assets/floor1.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  z-index: 10;
-  padding-bottom: 40;
-}
 
 
 .top1 {
@@ -97,3 +85,186 @@ body {
   padding-top: 50px;
 }
 
+
+.menu_wrapper {
+    padding: 22px 0;
+    text-align: center;
+}
+
+
+
+#inner {
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.navbar_ {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    line-height: 1px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 30;
+}
+.navbar_ .navbar-inner_ {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    filter: none;
+    margin: 0;
+    min-height: inherit;
+    padding: 0;
+}
+.navbar_ .btn-navbar {
+    background: none repeat scroll 0 0 #c13535;
+    border: medium none;
+    box-shadow: none;
+    margin-bottom: 15px;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.navbar_ .btn-navbar:hover {
+    background: none repeat scroll 0 0 #a02828;
+}
+.navbar_ .btn-navbar .icon-bar {
+    background-image: none;
+}
+.nav-collapse_.collapse {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.navbar_ .nav {
+    display: block;
+    float: none;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.navbar_ .nav > li {
+    background: url("../images/marker0.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    padding-left: 30px;
+    padding-right: 15px;
+    position: relative;
+    white-space: nowrap;
+}
+.navbar_ .nav > li:first-child {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.navbar_ .nav > li > a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: transparent -moz-use-text-color;
+    border-image: none;
+    border-left: medium none;
+    border-radius: 0;
+    border-right: medium none;
+    border-style: solid none;
+    border-width: 2px medium;
+    color: #b4b4b4;
+    display: block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51px;
+    margin: 0;
+    padding: 0 8px;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #000;
+    transition: color 0.3s ease-out 0s;
+}
+.navbar_ .nav > li.active > a, .navbar_ .nav > li.active > a:hover, .navbar_ .nav > li.active > a:focus, .navbar_ .nav > li > a:hover, .navbar_ .nav > li > a:focus, .navbar_ .nav > li.sfHover > a, .navbar_ .nav > li.sfHover > a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #c13535;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+}
+@media (max-width: 979px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
+#inner {
+    max-width: 784px;
+}
+.nav-collapse_.collapse {
+    height: auto !important;
+    overflow: visible !important;
+}
+.navbar_ .btn-navbar {
+    display: none;
+}
+.navbar_ .nav > li {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.navbar_ .nav > li > a {
+    font-size: 14px;
+}
+.sub-menu ul {
+    left: 20px;
+}
+.hl1 {
+    bottom: -47px;
+}
+.slogan1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+h1 {
+    font-size: 34px;
+    line-height: 34px;
+    margin-top: -17px;
+}
+.navbar-form input {
+    width: 225px;
+}
+}
+@media (max-width: 767px) {
+body {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container {
+    width: 440px;
+}
+#inner {
+    max-width: 500px;
+}
+
+.navbar_ {
+    display: block;
+}
+.navbar_ .nav {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+}
+.navbar_ .nav > li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #000;
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar_ .nav > li > a {
+    border: medium none;
+    font-size: 16px;
+    line-height: 41px;
+}
+.navbar_ .nav > li.active > a, .navbar_ .nav > li.active > a:hover, .navbar_ .nav > li.active > a:focus, .navbar_ .nav > li > a:hover, .navbar_ .nav > li > a:focus, .navbar_ .nav > li.sfHover > a, .navbar_ .nav > li.sfHover > a:hover {
+    background: none repeat scroll 0 0 #383838;
+}
+}
