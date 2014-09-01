@@ -213,6 +213,14 @@ body {
   .hl1 {
       bottom: -47px;
   }
+
+  .hl1 {
+    bottom: 60px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+  }
   .slogan1 {
       font-size: 25px;
       line-height: 30px;
