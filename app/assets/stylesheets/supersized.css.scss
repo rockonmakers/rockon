@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #111;
+    height: 100%;
+}
+img {
+    border: medium none;
+}
+#supersized-loader {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 60px;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+    position: absolute;
+    text-indent: -999em;
+    top: 50%;
+    width: 60px;
+    z-index: 0;
+}
+
+#supersized img {
+    border: medium none;
+    height: 100%;
+    outline: medium none;
+    position: relative;
+    width: 100%;
+}
+#supersized a {
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -30;
+}
+#supersized a.image-loading {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+#supersized {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -999;
+}
+
