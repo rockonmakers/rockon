@@ -95,13 +95,13 @@
     z-index: 2;
 }
 .camera_target_content .camera_link {
-    background: url("../images/blank.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/blank.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
     display: block;
     height: 100%;
     text-decoration: none;
 }
 .camera_loader {
-    background: url("../images/camera-loader.gif") no-repeat scroll center center rgba(0, 0, 0, 0.9);
+    background: url("/assets/camera-loader.gif") no-repeat scroll center center rgba(0, 0, 0, 0.9);
     border: 1px solid #000;
     border-radius: 18px;
     height: 36px;
@@ -168,7 +168,7 @@
     z-index: 10;
 }
 .camera_prevThumbs div {
-    background: url("../images/camera_skins.png") no-repeat scroll -160px 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll -160px 0 rgba(0, 0, 0, 0);
     display: block;
     height: 40px;
     margin-top: -20px;
@@ -187,7 +187,7 @@
     z-index: 10;
 }
 .camera_nextThumbs div {
-    background: url("../images/camera_skins.png") no-repeat scroll -190px 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll -190px 0 rgba(0, 0, 0, 0);
     display: block;
     height: 40px;
     margin-top: -20px;
@@ -265,7 +265,7 @@
     left: 0;
 }
 .camera_prev > span {
-    background: url("../images/camera_skins.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     display: block;
     height: 40px;
     width: 40px;
@@ -274,7 +274,7 @@
     right: 0;
 }
 .camera_next > span {
-    background: url("../images/camera_skins.png") no-repeat scroll -40px 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll -40px 0 rgba(0, 0, 0, 0);
     display: block;
     height: 40px;
     width: 40px;
@@ -283,12 +283,12 @@
     right: 41px;
 }
 .camera_commands > .camera_play {
-    background: url("../images/camera_skins.png") no-repeat scroll -80px 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll -80px 0 rgba(0, 0, 0, 0);
     height: 40px;
     width: 40px;
 }
 .camera_commands > .camera_stop {
-    background: url("../images/camera_skins.png") no-repeat scroll -120px 0 rgba(0, 0, 0, 0);
+    background: url("/assets/camera_skins.png") no-repeat scroll -120px 0 rgba(0, 0, 0, 0);
     display: block;
     height: 40px;
     width: 40px;
@@ -348,34 +348,34 @@
     position: relative;
 }
 .pattern_1 .camera_overlayer {
-    background: url("../images/patterns/overlay1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_2 .camera_overlayer {
-    background: url("../images/patterns/overlay2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_3 .camera_overlayer {
-    background: url("../images/patterns/overlay3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_4 .camera_overlayer {
-    background: url("../images/patterns/overlay4.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay4.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_5 .camera_overlayer {
-    background: url("../images/patterns/overlay5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_6 .camera_overlayer {
-    background: url("../images/patterns/overlay6.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay6.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_7 .camera_overlayer {
-    background: url("../images/patterns/overlay7.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay7.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_8 .camera_overlayer {
-    background: url("../images/patterns/overlay8.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay8.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_9 .camera_overlayer {
-    background: url("../images/patterns/overlay9.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay9.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .pattern_10 .camera_overlayer {
-    background: url("../images/patterns/overlay10.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/assets/patterns/overlay10.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .camera_caption {
     color: #fff;
@@ -1015,7 +1015,7 @@
     z-index: 100;
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
-    background: url("../images/paginations.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("/assets/paginations.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     border-radius: 0;
     display: inline-block;
     height: 17px;
@@ -1030,7 +1030,7 @@
     display: none;
 }
 .camera_prev {
-    background: url("../images/prev.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("/assets/prev.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     bottom: auto;
     height: 61px;
     left: 0;
@@ -1046,7 +1046,7 @@
     background-position: center bottom;
 }
 .camera_next {
-    background: url("../images/next.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("/assets/next.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     bottom: auto;
     height: 61px;
     margin: -30px 0 0;
