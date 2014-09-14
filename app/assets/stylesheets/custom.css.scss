@@ -45,7 +45,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: -99;
 }
 #main {
     background: url("/assets/floor1.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
