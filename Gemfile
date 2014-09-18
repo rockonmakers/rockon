@@ -12,7 +12,7 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer',  platforms: :ruby
-gem 'jquery-rails'
+gem "jquery-rails", "~> 2.3.0"
 gem 'turbolinks'
 gem 'sprockets', '~> 2.0'
 gem 'bootstrap-sass','~> 3.0.3.0'
