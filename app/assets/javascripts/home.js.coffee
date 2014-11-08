@@ -26,3 +26,47 @@ $(document).ready ->
     minHeight: "200px"
 
   return
+
+
+
+$(document).ready ->
+  
+  #  carouFredSel
+  #  optionally resize item-height       
+  updateSizes_vat = ->
+    $("#slider3 .carousel.main ul").trigger "updateSizes"
+    return
+  $("#slider3 .carousel.main ul").carouFredSel
+    auto:
+      timeoutDuration: 8000
+
+    responsive: true
+    prev: ".prev3"
+    next: ".next3"
+    width: "100%"
+    scroll:
+      items: 1
+      duration: 1000
+      easing: "easeOutExpo"
+
+    items:
+      width: "319"
+      height: "variable"
+      visible:
+        min: 1
+        max: 4
+
+    mousewheel: false
+    swipe:
+      onMouse: true
+      onTouch: true
+
+  $(window).bind("resize", updateSizes_vat).bind "load", updateSizes_vat
+  updateSizes_vat()
+  return
+
+#
+$(window).load ->
+
+
+#
