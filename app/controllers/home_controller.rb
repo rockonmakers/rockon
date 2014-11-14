@@ -5,5 +5,8 @@ class HomeController < ApplicationController
 
   def about_us
   end
+
+  def lessons
+  end
   
 end
