@@ -97,9 +97,7 @@
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 1170px;
 }
-.span12 {
-    width: 1170px;
-}
+
 .span11 {
     width: 1070px;
 }
@@ -354,6 +352,9 @@ input.span1, textarea.span1, .uneditable-input.span1 {
     margin-left: 0;
 }
 }
+
+
+/* Needs to change */
 @media (min-width: 768px) and (max-width: 979px) {
 .row {
     margin-left: -20px;
@@ -622,6 +623,17 @@ input.span1, textarea.span1, .uneditable-input.span1 {
     width: 28px;
 }
 }
+@media (min-width: 800px){
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 834px;
+}    
+.span12 {
+    width: 834px;
+}
+.span4 {
+    width: 264px;
+}
+}
 @media (max-width: 767px) {
 body {
     padding-left: 20px;
@@ -879,6 +891,4 @@ body {
 }
 }
 
-.container {
-    padding-left: 30px;
-}
+
